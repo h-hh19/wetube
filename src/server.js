@@ -17,4 +17,4 @@ app.get("/", logger, handleHome);
 
 const handleListening = () => console.log(`✅ Server listenting on port http://localhost:${PORT} 🚀`);
 
-app.listen(PORT, handleListening) 
+app.listen(PORT, handleListening);
